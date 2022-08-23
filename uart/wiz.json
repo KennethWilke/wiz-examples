@@ -1,0 +1,15 @@
+{
+    "package_name": "uart",
+    "builder": "vivado",
+    "programmer": "vivado",
+    "target_part": "xc7a35ticsg324-1L",
+    "target_device": "xc7a35t_0",
+    "source_files": [
+        "top.sv"
+    ],
+    "bitstream_path": "uart.bit",
+    "pins": {
+        "tx": "A9",
+        "rx": "D10"
+    }
+}
